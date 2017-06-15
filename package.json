@@ -43,6 +43,8 @@
 
   "dependencies":
   {
+    "command-promise":
+      "2"
   },
 
   "devDependencies":

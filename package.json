@@ -1,0 +1,58 @@
+{
+     "name": "deploy",
+  "version": "0.0.0",
+  "license": "ISC",
+
+  "private":  true,
+
+  "author": "Strider <strange.transistor@gmail.com>",
+  "description": "deploy tool",
+
+  "homepage":            "https://github.com/StrangeTransistor/deploy",
+  "repository": { "url": "https://github.com/StrangeTransistor/deploy.git", "type": "git" },
+  "bugs":       { "url": "https://github.com/StrangeTransistor/deploy/issues" },
+
+  "engines":
+  {
+    "node": ">=7"
+  },
+
+   "bin": "run/deploy",
+
+  "files":
+  [
+    "run/"
+  ],
+
+  "scripts":
+  {
+    "st":
+      "eslint run/",
+
+    "flow":
+      "flow check",
+
+    "test":
+      "npm run st && npm run flow"
+  },
+
+  "peerDependencies":
+  {
+  },
+
+  "dependencies":
+  {
+  },
+
+  "devDependencies":
+  {
+    "eslint":
+      "3",
+
+    "js-outlander":
+      "StrangeTransistor/js-outlander#2.1.0",
+
+    "flow-bin":
+      "0.48"
+  }
+}

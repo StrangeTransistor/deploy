@@ -17,17 +17,18 @@
     "node": ">=7"
   },
 
-   "bin": "run/deploy",
+  "bin": "run/deploy",
 
   "files":
   [
-    "run/"
+    "run/",
+    "lib/"
   ],
 
   "scripts":
   {
     "st":
-      "eslint run/",
+      "eslint run/ lib/",
 
     "flow":
       "flow check",

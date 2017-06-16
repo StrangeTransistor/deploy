@@ -43,6 +43,8 @@
 
   "dependencies":
   {
+    "rootpath":
+      "StreetStrider/rootpath#v1.8.1"
   },
 
   "devDependencies":

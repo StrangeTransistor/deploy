@@ -37,10 +37,6 @@
       "npm run st && npm run flow"
   },
 
-  "peerDependencies":
-  {
-  },
-
   "dependencies":
   {
     "rootpath":

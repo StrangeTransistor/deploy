@@ -1,6 +1,6 @@
 **shell**:
 ```sh
-deploy <release like battle> <host or ip> <remote dir>
+deploy {release like `battle`} {remote like `host` or `ip`} {remote dir}
 ```
 
 ## license
